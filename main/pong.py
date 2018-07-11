@@ -2,14 +2,13 @@
 the main game loop is also housed here, within the main() function.'''
 
 
-# importing from/the pygame library, which will be used to implement pong
+# importing from/the pygame library, which will be used to implement main
 # pygame contains a number of useful libraries for developing games in python
 
 import sys
 import pygame
+from main import draw_features as draw
 from pygame.locals import *
-from drawing_tools import draw_features as draw
-
 
 # variables defined and functions in draw_features.py, for drawing paddles, play area, ball etc.
 
